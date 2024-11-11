@@ -364,12 +364,14 @@ h1 {
     /* Ajustando o Header para dispositivos móveis */
     .header-content {
         text-align: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .header-img {
         flex-direction: column;
         max-width: 80%;
-        height: auto;
+        align-items: center;
     }
 
     /* Ajustando as seções de receitas e sucos */
